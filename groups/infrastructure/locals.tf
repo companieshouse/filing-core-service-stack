@@ -1,5 +1,5 @@
 locals {
-  stack_name     = "filing-core"
+  stack_name     = "filing-core-service"
   stack_fullname = "${local.stack_name}-stack"
   name_prefix    = "${local.stack_name}-${var.environment}"
 
